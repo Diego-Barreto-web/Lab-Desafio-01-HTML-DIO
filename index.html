@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conteúdos HTML - DIO</title>
+</head>
+<body>
+    <h1>Conteúdos HTML - DIO</h1>
+    <hr>
+
+    <h2 id ="index">Índice</h2>
+    <ul>
+        <li><a href="#historia-computador">História dos computadores</a></li>
+        <li><a href="#clientes">O que são <i>Clients</i>?</a></li>
+        <li><a href="#servers">O que são <i>Servers</i>?</a></li>
+        <li><a href="#tags">Tags HTML</a></li>
+        <li><a href="#listas">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+        <li><a href="#referencias">Links de referências</a></li>
+    </ul>
+
+    <h3 id="historia-computador">História dos Computadores</h3>
+    <a href="#index"><small>(Voltar)</small></a>
+    <ol>
+        <li><h4>MARK 1 (1944):</h4>
+        <p>O Harvard Mark I, também conhecido como IBM Automatic Sequence Controlled Calculator (ASCC), foi um computador eletromecânico desenvolvido na Universidade de Harvard durante a Segunda Guerra Mundial. Ele utilizava componentes mecânicos e eletromecânicos para realizar cálculos e foi um dos primeiros computadores automáticos de grande escala.</p></li>
+
+        <li><h4>ENIAC (1946):</h4>
+        <p>O Electronic Numerical Integrator and Computer (ENIAC) foi o primeiro computador eletrônico de grande escala. Desenvolvido durante a Segunda Guerra Mundial pelos pesquisadores John W. Mauchly e J. Presper Eckert, o ENIAC tinha o tamanho de uma sala e realizava cálculos numericamente intensivos.
+        </p></li>
+
+        <li><h4>UNIVAC I (1951):</h4>
+        <p>O UNIVAC I (Universal Automatic Computer I) foi o primeiro computador comercialmente produzido nos Estados Unidos. Foi usado para fins comerciais e científicos.</p></li>
+
+        <li><h4>IBM 360 (1964):</h4>
+        <p>Introduzido pela IBM, o IBM 360 foi uma família de mainframes que estabeleceu padrões para a indústria de computadores. Ele permitiu a interoperabilidade de software e hardware, o que foi crucial para o desenvolvimento da indústria de computadores.</p></li>
+
+        <li><h4>Microprocessadores (1970):</h4>
+        <p>A introdução dos microprocessadores, como o Intel 4004 em 1971, marcou o início da era dos computadores pessoais. Esses chips integraram todos os componentes principais de um computador em um único circuito integrado.</p></li>
+
+        <li><h4>Computadores Pessoais (1980):</h4>
+        <p>O lançamento de computadores pessoais, como o IBM PC, o Apple II e o Commodore 64, tornou os computadores mais acessíveis ao público em geral.</p>
+        </li>
+
+        <li><h4>Internet (1980 em diante):</h4>
+        <p>O desenvolvimento da Internet mudou radicalmente a forma como os computadores interagem e se comunicam. Tim Berners-Lee criou a World Wide Web em 1989, tornando a Internet acessível para uma audiência mais ampla.</p></li>
+
+        <li><h4>Era Moderna (2000 em diante):</h4>
+        <p>A computação em nuvem, inteligência artificial, aprendizado de máquina e dispositivos móveis são tendências significativas na era moderna dos computadores. A tecnologia continua a evoluir rapidamente, moldando a forma como vivemos e trabalhamos.</p></li>
+    </ol>
+
+    <h3 id="clientes">O que são <i>Clients</i>?</h3>
+    <a href="#index"><small>(Voltar)</small></a>
+    <p>se refere ao lado do sistema que interage diretamente com o usuário final. Isso pode ser um navegador da web, um aplicativo móvel ou qualquer outra interface que permita que os usuários acessem e interajam com os serviços ou informações fornecidos por um servidor web.</p>
+    <p>Na arquitetura cliente-servidor comum em desenvolvimento web, o "client" é a parte do sistema que solicita recursos ou serviços do "servidor" e exibe os resultados para o usuário. Aqui estão alguns elementos comuns relacionados ao cliente em desenvolvimento web:</p>
+    <ol>
+        <li><h4>Navegador da Web (Web Browser):</h4>
+        <p>O navegador é um tipo de cliente utilizado para acessar conteúdo na web. Exemplos incluem Google Chrome, Mozilla Firefox, Safari e Microsoft Edge.
+        </p></li>
+
+        <li><h4>Cliente Web (Web Client):</h4>
+        <p>Pode se referir a um aplicativo ou interface que permite aos usuários interagirem com serviços web. Isso pode incluir páginas web, aplicativos da web e outros recursos acessíveis através de um navegador.</p></li>
+
+        <li><h4>JavaScript:</h4>
+        <p>Muitas interações do lado do cliente são gerenciadas por JavaScript, uma linguagem de programação de script executada no navegador do usuário. Isso permite que os desenvolvedores criem páginas web interativas e dinâmicas.</p></li>
+
+        <li><h4>Aplicativos Móveis:</h4>
+        <p>Se um desenvolvedor web também está envolvido no desenvolvimento de aplicativos móveis, o cliente pode ser representado pelos aplicativos instalados em dispositivos móveis (como smartphones e tablets) que interagem com serviços web.</p></li>
+
+        <li><h4>Requisições HTTP:</h4>
+        <p>O cliente envia solicitações HTTP (Hypertext Transfer Protocol) para o servidor, solicitando recursos, dados ou serviços específicos. Isso pode incluir solicitações para carregar uma página, enviar dados de um formulário, etc.</p></li>
+
+        <li><h4>Interface de Usuário (UI):</h4>
+        <p>O cliente, muitas vezes, incorpora a interface de usuário através da qual os usuários interagem com o sistema. Isso inclui elementos como formulários, botões, menus e outros componentes visuais.</p></li>
+    </ol>
+
+    <h3 id="servers">O que são <i>Servers</i>?</h3>
+    <a href="#index"><small>(Voltar)</small></a>
+    <p>São computadores ou sistemas de computação dedicados a fornecer serviços, recursos ou dados para outros computadores, chamados de "clientes". Eles desempenham um papel crucial na arquitetura cliente-servidor, onde os clientes solicitam informações ou serviços, e os servidores respondem a essas solicitações. Aqui estão alguns aspectos fundamentais relacionados aos servidores:</p>
+    <ol>
+        <li><h4>Armazenamento e Gerenciamento de Dados:</h4>
+        <p>Servidores muitas vezes são usados para armazenar e gerenciar grandes volumes de dados. Isso pode incluir bancos de dados, arquivos de mídia, documentos e outros tipos de informações.</p></li>
+        
+        <li><h4>Processamento de Requisições:</h4>
+        <p>Quando um cliente faz uma solicitação (por exemplo, acessar uma página da web, enviar um e-mail, ou buscar dados), o servidor processa essa solicitação e fornece uma resposta apropriada.</p></li>
+
+        <li><h4>Servidores Web:</h4>
+        <p>Um tipo comum de servidor é o servidor web, que hospeda sites, aplicativos da web e outros conteúdos acessíveis pela internet. Exemplos incluem servidores Apache, Nginx e Microsoft IIS.</p></li>
+
+        <li><h4>Servidores de Aplicações:</h4>
+        <p>Além dos servidores web, há servidores de aplicativos que executam e gerenciam aplicativos específicos, como servidores que hospedam aplicativos empresariais, jogos online ou serviços personalizados.</p></li>
+
+        <li><h4>Servidores de Banco de Dados:</h4>
+        <p>Esses servidores armazenam e gerenciam dados em bancos de dados. Exemplos incluem servidores MySQL, PostgreSQL e Microsoft SQL Server.</p></li>
+
+        <li><h4>Servidores de E-mail:</h4>
+        <p>Responsáveis pelo envio, recebimento e armazenamento de e-mails. Exemplos incluem servidores Microsoft Exchange, Gmail e Sendmail.</p></li>
+
+        <li><h4>Servidores de Arquivos:</h4>
+        <p>Usados para armazenar e gerenciar arquivos que podem ser acessados por outros dispositivos em uma rede. Exemplos incluem servidores de arquivos Windows e servidores de arquivos Linux.</p></li>
+
+        <li><h4>Servidores de Autenticação e Autorização:</h4>
+        <p>Gerenciam o acesso a recursos, autenticando usuários e autorizando suas ações. Exemplos incluem servidores LDAP (Lightweight Directory Access Protocol) e servidores de autenticação OAuth.</p></li>
+
+        <li><h4>Servidores de Jogos:</h4>
+        <p>Especializados em hospedar jogos online, gerenciando interações entre jogadores e mantendo o estado do jogo. Exemplos incluem servidores de jogos como os utilizados em MMOs (Massively Multiplayer Online).</p></li>
+
+        <li><h4>Servidores na Nuvem:</h4>
+        <p>Muitos serviços de nuvem oferecem servidores virtualizados que podem ser provisionados e configurados conforme necessário. Exemplos incluem AWS (Amazon Web Services), Microsoft Azure e Google Cloud Platform.</p></li>
+
+    </ol>
+
+    <h3 id="tags">Tags <strong>HTML</strong></h3>
+    <a href="#index"><small>(Voltar)</small></a>
+    <h1>Título Principal (h1)</h1>
+    <p>Este é um exemplo de texto utilizando diversas tags HTML aprendidas nas aulas.</p>
+  
+    <h2>Título Secundário (h2)</h2>
+    <p><mark>Destaque de texto com a tag mark</mark>. Além disso, podemos utilizar a tag <small>para textos menores</small>.</p>
+  
+    <h3>Título Terciário (h3)</h3>
+    <p>Também podemos utilizar as tags <i>itálico</i>, <u>sublinhado</u>, e <strong>negrito</strong> para dar ênfase ao texto.</p>
+  
+    <h4>Título Quaternário (h4)</h4>
+    <ol>
+      <li>Item de lista ordenada (ol) 1</li>
+      <li>Item de lista ordenada (ol) 2</li>
+      <li>Item de lista ordenada (ol) 3</li>
+    </ol>
+  
+    <h5>Título Quinário (h5)</h5>
+    <ul>
+      <li>Item de lista não ordenada (ul) 1</li>
+      <li>Item de lista não ordenada (ul) 2</li>
+      <li>Item de lista não ordenada (ul) 3</li>
+    </ul>
+  
+    <h6>Título Senário (h6)</h6>
+    <p>Podemos criar links usando a tag <a href="#index">âncora (a)</a> para redirecionar para outros recursos.</p>
+  
+    <hr>
+  
+    <p>Também podemos usar as tags <sub>subscrito</sub> e <sup>superescrito</sup> para notações matemáticas.</p>
+  
+    <blockquote>Citação utilizando a tag blockquote.</blockquote>
+  
+    <p>Além das tags mencionadas nas aulas, podemos explorar novas tags:</p>
+  
+    <p><font color="blue">Este texto está colorido usando a tag font.</font></p>
+  
+    <p><del>Texto deletado usando a tag del.</del></p>
+  
+    <p>Usando a tag abbr para <abbr title="Hypertext Markup Language">HTML</abbr>, podemos fornecer uma explicação mais detalhada sobre uma sigla.</p>
+
+
+    <h3 id="listas">Entendendo a diferença entre listas ordenadas e não ordenadas</h3>
+    <a href="#index"><small>(Voltar)</small></a>
+    <p>Em HTML, as listas ordenadas (&lt;ol&gt;) e as listas não ordenadas (&lt;ul&gt;) são utilizadas para organizar e apresentar informações de forma estruturada. Aqui estão as principais diferenças entre elas:</p>
+    <h4>Lista Ordenada (&lt;ol&gt;):</h4>
+    <ol>
+        <li><h5>Marcação:</h5>
+            <ul>
+                <li>A lista ordenada é definida pela tag &lt;ol&gt;.</li>
+                <ol>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ol>
+            </ul>
+        </li>
+        
+        <li><h5>Numeração:</h5>
+            <ul>
+                <li>Os itens da lista ordenada são numerados automaticamente. O padrão é a numeração decimal (1, 2, 3...), mas é possível alterar o tipo de numeração usando o atributo `type`.</li>
+                <ol type="A">
+                    <li>Item A</li>
+                    <li>Item B</li>
+                    <li>Item C</li>
+                </ol>
+            </ul>
+        </li>
+
+        <li><h5>Semântica:</h5>
+            <ul>
+                <li>É apropriada para listas que têm uma ordem lógica ou sequencial, como passos em uma receita, etapas em um tutorial, etc.</li>
+            </ul>
+        </li>
+    </ol>
+
+    <h4>Lista Não Ordenada (&lt;ul&gt;):</h4>
+    <ol>
+        <li><h5>Marcação:</h5>
+            <ul>
+                <li>A lista não ordenada é definida pela tag &lt;ul&gt;.</li>
+                <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ul>
+            </ul>
+        </li>
+
+        <li><h5>Marcadores:</h5>
+            <ul>
+                <li>Os itens da lista não ordenada são marcados com símbolos padrão, como pontos, mas é possível alterar o tipo de marcador usando o atributo `type`.</li>
+                <ul type="square">
+                    <li>Item A</li>
+                    <li>Item B</li>
+                    <li>Item C</li>
+                </ul>
+            </ul>
+        </li>
+
+        <li><h5>Semântica:</h5>
+            <ul>
+                <li>É apropriada para listas que não têm uma ordem específica, como uma lista de recursos, itens de uma descrição, etc.</li>
+            </ul>
+        </li>
+    </ol>
+
+    <h3 id="referencias">Links de referências</h3>
+    <a href="#index"><small>(Voltar)</small></a>
+    <ul>        
+        <li><a target="_blank" href="http://dio.me">http://dio.me</a></li>
+        <li><a target="_blank" href="http://w3c.org">http://w3c.org</a></li>
+    </ul>
+</body>
+</html>
